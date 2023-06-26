@@ -24,25 +24,25 @@ const productSchema = new mongoose.Schema(
       contentType: String,
     },
     linktitleone: {
-      type: String,
+      type: {},
     },
     link1: {
       type: String,
     },
     linktitletwo: {
-      type: String,
+      type: {},
     },
     link2: {
       type: String,
     },
     linktitlethree: {
-      type: String,
+      type: {},
     },
     link3: {
       type: String,
     },
     linktitlefour: {
-      type: String,
+      type: {},
     },
     link4: {
       type: String,
