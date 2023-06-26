@@ -23,40 +23,25 @@ const productSchema = new mongoose.Schema(
       data: Buffer,
       contentType: String,
     },
-    director: {
-      type: {},
-    },
-    actors: {
-      type: {},
-    },
-    country: {
-      type: String,
-    },
-    duration: {
-      type: String,
-    },
-    release: {
-      type: String,
-    },
-    link1title: {
+    linktitleone: {
       type: String,
     },
     link1: {
       type: String,
     },
-    link2title: {
+    linktitletwo: {
       type: String,
     },
     link2: {
       type: String,
     },
-    link3title: {
+    linktitlethree: {
       type: String,
     },
     link3: {
       type: String,
     },
-    link4title: {
+    linktitlefour: {
       type: String,
     },
     link4: {
@@ -68,6 +53,10 @@ const productSchema = new mongoose.Schema(
     watchlink2: {
       type: String,
     },
+    watchlink3: {
+      type: String,
+    },
+    
   },
   { timestamps: true }
 );
